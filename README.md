@@ -1,8 +1,5 @@
 # teensy-flight-computer-prototype-LAB
 
-Teensy Flight Computer Prototype
-
-Overview
 
 This project is a prototype embedded flight computer built using a Teensy microcontroller and common Arduino components.
 
