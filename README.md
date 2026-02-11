@@ -14,7 +14,7 @@ The objective of this project is to model real world rocket flight behavior with
 - **State Detection** – Autonomous transition between flight phases  
 - **Apogee Detection** – Identifying peak altitude for recovery deployment  
 - **Deployment Simulation** – Physical triggering of recovery hardware  
-- **Real-time Telemetry** – Data streaming to a Ground Control Station (GCS)  
+- **Real-time Telemetry** – Data streaming to a Ground Station  
 
 ---
 
@@ -22,7 +22,7 @@ The objective of this project is to model real world rocket flight behavior with
 
 The system follows a linear data-processing pipeline:
 
-Sensors → Flight Logic (State Machine) → Actuators & Telemetry
+Sensors → Flight Logic → Actuators & Telemetry
 
 
 ---
@@ -33,7 +33,7 @@ Sensors → Flight Logic (State Machine) → Actuators & Telemetry
 - **HC-SR04** – Ultrasonic sensor used to simulate altitude data  
 - **DHT11/22** – Temperature sensor for environmental monitoring  
 - **Servo Motor** – Simulates mechanical parachute deployment  
-- **Buzzer** – Audible signaling for state changes (e.g., Armed or Landed)  
+- **Buzzer** – Audible signaling for state changes
 - **LEDs** – Visual indicators for real-time system status  
 
 ---
