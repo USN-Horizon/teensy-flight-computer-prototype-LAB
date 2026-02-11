@@ -4,7 +4,7 @@ This repository contains the source code for an embedded **Flight Computer Proto
 
 ---
 
-## 🚀 Project Overview
+##  Project Overview
 
 The objective of this project is to model real world rocket flight behavior within a controlled, hardware in the loop environment. The system manages everything from pre flight arming to post flight recovery signaling.
 
@@ -18,7 +18,7 @@ The objective of this project is to model real world rocket flight behavior with
 
 ---
 
-## 🏗️ System Architecture
+##  System Architecture
 
 The system follows a linear data-processing pipeline:
 
@@ -27,7 +27,7 @@ Sensors → Flight Logic (State Machine) → Actuators & Telemetry
 
 ---
 
-## 🔧 Hardware Components
+##  Hardware Components
 
 - **Teensy** – High-performance microcontroller acting as the primary flight computer  
 - **HC-SR04** – Ultrasonic sensor used to simulate altitude data  
@@ -38,7 +38,7 @@ Sensors → Flight Logic (State Machine) → Actuators & Telemetry
 
 ---
 
-## ⚙️ Flight States
+##  Flight States
 
 The computer operates using a deterministic **Finite State Machine (FSM)**.  
 
