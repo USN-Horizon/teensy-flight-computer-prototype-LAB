@@ -84,11 +84,7 @@ This project serves as:
 - A flight software prototyping platform  
 
 
----
 
-##  License
-
-MIT License
 
 
 
