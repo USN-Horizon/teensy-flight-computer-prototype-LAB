@@ -1,0 +1,8 @@
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowTitle">
+   <string>Ground Control Station</string>
+  </property>
+ </widget>
+</ui>

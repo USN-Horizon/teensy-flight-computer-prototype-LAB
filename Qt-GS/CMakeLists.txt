@@ -1,9 +1,13 @@
 cmake_minimum_required(VERSION 3.19)
 
-set(CMAKE_CXX_COMPILER "C:/msys64/mingw_64/bin")
-# project(Qt-GS LANGUAGE CXX)
+#set(CMAKE_CXX_COMPILER "C:/msys64/mingw_64/bin")
+project(Qt-GS LANGUAGES CXX)
 
-find_package(Qt6 REQUIRED COMPONENTS Core Widgets)
+find_package(Qt6 REQUIRED COMPONENTS 
+    Core 
+    Widgets
+    SerialPort
+)
 
 qt_standard_project_setup()
 
@@ -19,6 +23,7 @@ target_link_libraries(Qt-GS
     PRIVATE
         Qt::Core
         Qt::Widgets
+        Qt::SerialPort
 )
 
 include(GNUInstallDirs)
